@@ -6,12 +6,16 @@ import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
 import { TodoComponent } from './component/todo/todo.component';
 import { TodoHeaderComponent } from './component/todo/components/todo-header/todo-header.component';
+import { TodoBodyComponent } from './component/todo/components/todo-body/todo-body.component';
+import { TodoFooterComponent } from './component/todo/components/todo-footer/todo-footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TodoComponent,
-    TodoHeaderComponent
+    TodoHeaderComponent,
+    TodoBodyComponent,
+    TodoFooterComponent
   ],
   imports: [
     CoreModule,
